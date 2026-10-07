@@ -1,0 +1,35 @@
+# Model files (too large for GitHub)
+*.gguf
+*.bin
+*.safetensors
+
+# Training artifacts
+esim_checkpoints/
+esim_lora_adapter/
+esim_model_gguf/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Gradio
+.gradio/
+
+# Distribution bundle (large installer + GGUF)
+package/
+*.exe
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+name: Scrape ChicTrip eSIM
+
+on:
+  schedule:
+    # 每天 UTC 20:00 = 台灣時間 04:00
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python chictrip_scraper.py
+
+      - name: Commit updated plans
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet chictrip_plans.json; then
+            echo "No changes to commit"
+          else
+            git add chictrip_plans.json
+            git commit -m "chore: update chictrip_plans.json $(date -u +%Y-%m-%d)"
+            git push
+          fi

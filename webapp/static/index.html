@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>漫遊選物｜eSIM 推薦助理</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section id="hero">
+      <div class="eyebrow">漫遊選物 / eSIM 旅遊顧問</div>
+      <h1>下一站，上網不用煩惱。</h1>
+      <p>告訴我們旅程與使用習慣，找到適合你的 eSIM。<br>
+         從第一個推薦，到出發前的小問題，都可以接著聊。</p>
+      <span class="pill">專屬旅程建議 · 輕鬆比較方案</span>
+    </section>
+
+    <section id="workspace">
+      <aside id="trip-panel">
+        <div class="section-kicker">01 / 你的旅程</div>
+        <div class="section-title">這次想去哪裡？</div>
+        <div class="section-copy">幾個小設定，讓推薦更貼近你的需求。</div>
+
+        <form id="trip-form">
+          <label>目的地
+            <select name="destination" required>
+              <option>日本</option><option>韓國</option><option>泰國</option>
+              <option>歐洲</option><option>美國</option><option>中國</option>
+              <option>東南亞</option>
+            </select>
+          </label>
+
+          <label>旅遊天數：<output id="days-out">7</output> 天
+            <input type="range" name="days" min="1" max="30" value="7" oninput="daysOut.value=this.value">
+          </label>
+
+          <fieldset>
+            <legend>每日用量</legend>
+            <label><input type="radio" name="usage" value="輕度"> 輕度</label>
+            <label><input type="radio" name="usage" value="中度" checked> 中度</label>
+            <label><input type="radio" name="usage" value="重度"> 重度</label>
+            <small>輕度：訊息導航｜中度：社群照片｜重度：影音熱點</small>
+          </fieldset>
+
+          <label>總預算 NT$
+            <input type="number" name="budget" min="0" step="50" value="500">
+            <small>整趟旅程的上網預算；0 表示不限</small>
+          </label>
+
+          <label class="chk"><input type="checkbox" name="unlimited"> 我想要吃到飽</label>
+
+          <button type="submit" id="submit-btn">幫我找方案 →</button>
+          <p class="hint">調整條件後，再按一次按鈕即可更新建議。</p>
+        </form>
+      </aside>
+
+      <section id="chat-panel">
+        <div class="section-kicker">02 / 一起聊聊</div>
+        <div class="section-title">你的隨行上網顧問</div>
+
+        <div id="chat-window" aria-live="polite"></div>
+
+        <form id="msg-form">
+          <textarea id="msg-input" placeholder="例如：我還需要分享熱點給另一支手機…" rows="2"></textarea>
+          <div class="row">
+            <button type="submit" id="send-btn">送出訊息</button>
+            <button type="button" id="clear-btn" class="secondary">開始新對話</button>
+          </div>
+        </form>
+        <p id="status">準備好了，從你的下一趟旅程開始。</p>
+      </section>
+    </section>
+
+    <section>
+      <div class="section-kicker">03 / 方案比較</div>
+      <div class="section-title">為這次旅程整理的推薦</div>
+      <div class="section-copy">依最新回答整理，缺少的資訊會標示「待確認」。</div>
+      <div id="cards"></div>
+      <p class="disclaimer">AI 建議供比較參考；價格、覆蓋範圍、熱點分享及公平使用限制，請以業者公告為準。</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
