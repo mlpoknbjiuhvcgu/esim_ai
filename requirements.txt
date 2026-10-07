@@ -1,2 +1,6 @@
 playwright
 gradio
+fastapi
+uvicorn[standard]
+requests
+python-dotenv

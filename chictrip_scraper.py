@@ -89,6 +89,40 @@ def fetch_product(browser, code: str) -> dict | None:
     return None
 
 
+VARIANT_KEYWORDS = ("標準", "高速", "鈦金")
+
+
+def classify_variant(option_name: str) -> str | None:
+    """從 specOption 名稱（例如「鈦金吃到飽」）判定 variant 類型。"""
+    for kw in VARIANT_KEYWORDS:
+        if kw in option_name:
+            return kw
+    return None
+
+
+def build_sku_variant_map(plan: dict) -> dict[str, str | None]:
+    """產生 skuId → variant（標準/高速/鈦金/None）的對應表。
+
+    靠 planSpecs 找 DataVolume 類別下的 specOptionId → variant，
+    再用 specOptionMappingSkus 把 skuId 對回去。
+    """
+    data_volume_options: dict[str, str] = {}
+    for spec in plan.get("planSpecs", []):
+        if spec.get("specName") != "DataVolume":
+            continue
+        for opt in spec.get("specOptions", []):
+            variant = classify_variant(opt.get("optionName", ""))
+            if variant:
+                data_volume_options[opt["specOptionId"]] = variant
+
+    sku_variant: dict[str, str | None] = {}
+    for mapping in plan.get("specOptionMappingSkus", []):
+        opt_id = mapping.get("specOptionId")
+        if opt_id in data_volume_options:
+            sku_variant[mapping["skuId"]] = data_volume_options[opt_id]
+    return sku_variant
+
+
 def scrape() -> dict:
     plans_db = {}
 
@@ -111,6 +145,8 @@ def scrape() -> dict:
                 is_unlimited = "unlimited" in code
 
                 for plan in raw.get("plans", []):
+                    sku_variant = build_sku_variant_map(plan) if is_unlimited else {}
+
                     for sku in plan.get("skus", []):
                         if not sku.get("isActive"):
                             continue
@@ -118,7 +154,10 @@ def scrape() -> dict:
                         if not parsed:
                             continue
 
+                        variant = sku_variant.get(sku.get("skuId")) if is_unlimited else None
                         note = "吃到飽" if is_unlimited else f"{parsed['data_gb']}GB/天"
+                        if variant and is_unlimited:
+                            note = f"{variant}吃到飽"
                         dest_plans.append({
                             "provider": "去趣chictrip",
                             "name":     f"{product_name.split('|')[0].strip()} {parsed['days']}天",
@@ -127,6 +166,7 @@ def scrape() -> dict:
                             "days":     parsed["days"],
                             "price":    parsed["price"],
                             "network":  network,
+                            "variant":  variant,
                             "note":     note,
                             "code":     code,
                         })
@@ -134,11 +174,11 @@ def scrape() -> dict:
                 print(f"  OK  {code} | {len(dest_plans)} 筆累計")
 
             if dest_plans:
-                # 同一目的地去重（相同 days + data_gb + price）
+                # 同一目的地去重（相同 days + data_gb + price + variant）
                 seen = set()
                 unique = []
                 for p in dest_plans:
-                    key = (p["days"], p["data_gb"], p["price"])
+                    key = (p["days"], p["data_gb"], p["price"], p.get("variant"))
                     if key not in seen:
                         seen.add(key)
                         unique.append(p)

@@ -30,6 +30,10 @@ package/
 .env
 *.env
 
+# Logs
+logs/
+*.log
+
 # OS
 .DS_Store
 Thumbs.db

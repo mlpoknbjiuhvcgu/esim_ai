@@ -3,83 +3,173 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>漫遊選物｜eSIM 推薦助理</title>
+  <title>去趣 chicTrip｜AI eSIM 方案推薦</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <section id="hero">
-      <div class="eyebrow">漫遊選物 / eSIM 旅遊顧問</div>
-      <h1>下一站，上網不用煩惱。</h1>
-      <p>告訴我們旅程與使用習慣，找到適合你的 eSIM。<br>
-         從第一個推薦，到出發前的小問題，都可以接著聊。</p>
-      <span class="pill">專屬旅程建議 · 輕鬆比較方案</span>
-    </section>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-back" href="#">← 返回 eSIM</a>
+      <div class="nav-brand">
+        <span class="brand-logo">去趣</span>
+        <span class="brand-tagline">chicTrip</span>
+        <span class="nav-divider">|</span>
+        <span class="brand-section">AI 方案推薦</span>
+      </div>
+      <div class="nav-user">
+        <div class="avatar">旅</div>
+        <span>你好、旅人</span>
+      </div>
+    </div>
+  </nav>
 
-    <section id="workspace">
-      <aside id="trip-panel">
-        <div class="section-kicker">01 / 你的旅程</div>
-        <div class="section-title">這次想去哪裡？</div>
-        <div class="section-copy">幾個小設定，讓推薦更貼近你的需求。</div>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1><span class="hero-emoji">🔍</span> 讓我們幫你找到適合的 eSIM</h1>
+        <p>回答幾個簡單問題，我們會從去趣 eSIM 方案中推薦 3 個最適合你的選擇。</p>
+      </div>
+      <div class="hero-art">✈️🌍📱</div>
+    </div>
+  </header>
 
-        <form id="trip-form">
-          <label>目的地
-            <select name="destination" required>
-              <option>日本</option><option>韓國</option><option>泰國</option>
-              <option>歐洲</option><option>美國</option><option>中國</option>
-              <option>東南亞</option>
-            </select>
-          </label>
+  <main class="workspace">
+    <form id="trip-form" class="trip-form" novalidate>
+      <div class="question">
+        <div class="q-head"><span class="q-num">1</span><span class="q-title">這次要去哪裡？</span></div>
+        <div class="select-wrap">
+          <select name="destination" id="destination" required>
+            <option value="日本">🇯🇵 日本・東京</option>
+            <option value="韓國" selected>🇰🇷 韓國・首爾</option>
+            <option value="泰國">🇹🇭 泰國・曼谷</option>
+            <option value="中國">🇨🇳 中國・上海</option>
+            <option value="歐洲">🇪🇺 歐洲・多國</option>
+            <option value="東南亞">🌏 東南亞</option>
+          </select>
+        </div>
+      </div>
 
-          <label>旅遊天數：<output id="days-out">7</output> 天
-            <input type="range" name="days" min="1" max="30" value="7" oninput="daysOut.value=this.value">
-          </label>
+      <div class="question">
+        <div class="q-head"><span class="q-num">2</span><span class="q-title">預計待幾天？</span></div>
+        <div class="pills" id="days-pills" data-field="days">
+          <button type="button" class="pill" data-value="3">3天</button>
+          <button type="button" class="pill" data-value="4">4天</button>
+          <button type="button" class="pill selected" data-value="5">5天</button>
+          <button type="button" class="pill" data-value="7">7天</button>
+          <button type="button" class="pill" data-value="10">10天</button>
+          <button type="button" class="pill" data-value="other">其他</button>
+        </div>
+        <div class="other-input hidden" id="days-other">
+          <input type="number" id="days-custom" min="1" max="60" placeholder="輸入天數">
+          <span>天</span>
+        </div>
+      </div>
 
-          <fieldset>
-            <legend>每日用量</legend>
-            <label><input type="radio" name="usage" value="輕度"> 輕度</label>
-            <label><input type="radio" name="usage" value="中度" checked> 中度</label>
-            <label><input type="radio" name="usage" value="重度"> 重度</label>
-            <small>輕度：訊息導航｜中度：社群照片｜重度：影音熱點</small>
-          </fieldset>
+      <div class="question">
+        <div class="q-head"><span class="q-num">3</span><span class="q-title">你的網路使用量大概是多少？</span></div>
+        <div class="usage-cards" id="usage-cards" data-field="usage">
+          <button type="button" class="usage-card" data-value="輕度">
+            <span class="uc-icon uc-leaf">🌱</span>
+            <div class="uc-text">
+              <div class="uc-title">輕度使用</div>
+              <div class="uc-desc">主要用 LINE、查地圖、搜尋資料</div>
+            </div>
+            <span class="uc-check">✓</span>
+          </button>
+          <button type="button" class="usage-card selected" data-value="中度">
+            <span class="uc-icon uc-chart">📊</span>
+            <div class="uc-text">
+              <div class="uc-title">一般使用</div>
+              <div class="uc-desc">社群、照片、地圖都會使用</div>
+            </div>
+            <span class="uc-check">✓</span>
+          </button>
+          <button type="button" class="usage-card" data-value="重度">
+            <span class="uc-icon uc-play">🎬</span>
+            <div class="uc-text">
+              <div class="uc-title">重度使用</div>
+              <div class="uc-desc">常看影片、上傳影片或視訊通話</div>
+            </div>
+            <span class="uc-check">✓</span>
+          </button>
+        </div>
+      </div>
 
-          <label>總預算 NT$
-            <input type="number" name="budget" min="0" step="50" value="500">
-            <small>整趟旅程的上網預算；0 表示不限</small>
-          </label>
+      <div class="question">
+        <div class="q-head"><span class="q-num">4</span><span class="q-title">總預算</span></div>
+        <div class="budget-wrap">
+          <span class="budget-prefix">NT$</span>
+          <input type="number" id="budget" name="budget" min="0" step="50" value="500">
+          <small>整趟旅程上網預算；0 = 不限</small>
+        </div>
+      </div>
 
-          <label class="chk"><input type="checkbox" name="unlimited"> 我想要吃到飽</label>
+      <div class="question">
+        <div class="q-head"><span class="q-num">5</span><span class="q-title">其他偏好</span><span class="q-hint">（可複選）</span></div>
+        <div class="pills" id="pref-pills">
+          <button type="button" class="pill" data-pref="unlimited">∞ 吃到飽</button>
+          <button type="button" class="pill" data-pref="hotspot">📶 熱點分享</button>
+        </div>
+      </div>
 
-          <button type="submit" id="submit-btn">幫我找方案 →</button>
-          <p class="hint">調整條件後，再按一次按鈕即可更新建議。</p>
-        </form>
-      </aside>
+      <button type="submit" id="submit-btn" class="primary-btn">
+        <span>查看推薦方案</span><span class="arrow">→</span>
+      </button>
+      <p class="hint">我們會依你的條件從去趣目前的 eSIM 方案中推薦</p>
+    </form>
 
-      <section id="chat-panel">
-        <div class="section-kicker">02 / 一起聊聊</div>
-        <div class="section-title">你的隨行上網顧問</div>
+    <aside class="summary">
+      <div class="summary-head">
+        <span class="summary-title">✈️ 你的需求</span>
+      </div>
+      <dl class="summary-list" id="summary-list">
+        <dt>目的地</dt><dd id="s-dest">韓國・首爾</dd>
+        <dt>旅行天數</dt><dd id="s-days">5 天</dd>
+        <dt>使用習慣</dt><dd id="s-usage">一般使用</dd>
+        <dt>預算</dt><dd id="s-budget">NT$500</dd>
+        <dt>其他偏好</dt><dd id="s-pref">—</dd>
+      </dl>
+      <div class="summary-tip">
+        <span class="tip-icon">💡</span>
+        <div>
+          <div class="tip-title">小提醒</div>
+          <div class="tip-body" id="tip-body">勾選「熱點分享」我們會優先推薦鈦金吃到飽方案。</div>
+        </div>
+      </div>
+    </aside>
+  </main>
 
+  <section class="recommend-section">
+    <div class="recommend-head">
+      <h2>🎉 為你推薦 <span class="count" id="rec-count">3</span> 個 eSIM 方案</h2>
+      <p class="recommend-sub" id="rec-sub">根據你的旅行天數、使用習慣與偏好，這些方案最適合你。</p>
+    </div>
+    <div id="notice" class="notice hidden"></div>
+    <div id="status" class="status"></div>
+    <div id="cards" class="cards">
+      <div class="empty-card">填寫上方表單，按「查看推薦方案」我們就會為你挑選。</div>
+    </div>
+  </section>
+
+  <section class="chat-section">
+    <details class="chat-details">
+      <summary>💬 有疑問嗎？繼續聊聊</summary>
+      <div class="chat-body">
         <div id="chat-window" aria-live="polite"></div>
-
         <form id="msg-form">
           <textarea id="msg-input" placeholder="例如：我還需要分享熱點給另一支手機…" rows="2"></textarea>
           <div class="row">
             <button type="submit" id="send-btn">送出訊息</button>
-            <button type="button" id="clear-btn" class="secondary">開始新對話</button>
+            <button type="button" id="clear-btn" class="secondary">清空對話</button>
           </div>
         </form>
-        <p id="status">準備好了，從你的下一趟旅程開始。</p>
-      </section>
-    </section>
+      </div>
+    </details>
+  </section>
 
-    <section>
-      <div class="section-kicker">03 / 方案比較</div>
-      <div class="section-title">為這次旅程整理的推薦</div>
-      <div class="section-copy">依最新回答整理，缺少的資訊會標示「待確認」。</div>
-      <div id="cards"></div>
-      <p class="disclaimer">AI 建議供比較參考；價格、覆蓋範圍、熱點分享及公平使用限制，請以業者公告為準。</p>
-    </section>
-  </main>
+  <footer class="footer">
+    <p>AI 建議僅供比較參考；價格、覆蓋範圍、熱點分享及公平使用限制，請以業者公告為準。</p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
