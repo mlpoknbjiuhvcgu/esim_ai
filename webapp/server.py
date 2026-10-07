@@ -28,7 +28,11 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.responses import Response
 
+from webapp.logging_setup import get_logger
+
 load_dotenv(Path(__file__).parent.parent / ".env")
+
+log = get_logger("esim", "app.log")
 
 MODEL = os.getenv("ESIM_MODEL", "esim-advisor")
 RECOMMEND_MODEL = os.getenv("ESIM_RECOMMEND_MODEL", "qwen2.5:3b-instruct")
@@ -61,6 +65,7 @@ class BasicAuthMiddleware(BaseHTTPMiddleware):
         user_ok = secrets.compare_digest(user.encode(), AUTH_USER.encode())
         pass_ok = secrets.compare_digest(pw.encode(), AUTH_PASS.encode())
         if not (user_ok and pass_ok):
+            log.warning("auth failed user=%r from=%s path=%s", user, request.client.host if request.client else "?", request.url.path)
             return unauthorized
         return await call_next(request)
 
@@ -288,19 +293,24 @@ app.add_middleware(BasicAuthMiddleware)
 
 
 def ollama_post(payload: dict[str, Any], stream: bool = False) -> requests.Response:
+    model = payload.get("model", "?")
     try:
         response = requests.post(
             f"{OLLAMA_URL}/api/chat", json=payload, stream=stream, timeout=TIMEOUT
         )
     except requests.ConnectionError as exc:
+        log.error("Ollama connection refused url=%s", OLLAMA_URL)
         raise HTTPException(503, "無法連接 Ollama，請確認本機服務。") from exc
     except requests.Timeout as exc:
+        log.error("Ollama timeout model=%s", model)
         raise HTTPException(504, "Ollama 回應逾時。") from exc
     if response.status_code == 404:
         response.close()
-        raise HTTPException(404, f"找不到模型 {MODEL}，請用 ollama list 確認。")
+        log.error("Ollama model not found model=%s", model)
+        raise HTTPException(404, f"找不到模型 {model}，請用 ollama list 確認。")
     if response.status_code >= 400:
         response.close()
+        log.error("Ollama HTTP %d model=%s", response.status_code, model)
         raise HTTPException(response.status_code, f"Ollama HTTP {response.status_code}")
     return response
 
@@ -378,6 +388,10 @@ def recommend(req: RecommendRequest) -> dict[str, Any]:
     except FileNotFoundError as exc:
         raise HTTPException(500, f"找不到方案資料檔 {PLANS_FILE.name}。") from exc
 
+    log.info(
+        "recommend dest=%s days=%d usage=%s budget=%d unlimited=%s hotspot=%s",
+        req.destination, req.days, req.usage, req.budget, req.unlimited, req.hotspot,
+    )
     candidates, titanium_available = filter_candidates(
         plans_db, req.destination, req.days, req.usage,
         req.budget, req.unlimited, req.hotspot,
@@ -437,6 +451,7 @@ def recommend(req: RecommendRequest) -> dict[str, Any]:
         seen_idx.add(idx)
         plans.append(plan_to_card(candidates[idx - 1], str(pick.get("reason", "")).strip()))
 
+    log.info("recommend done candidates=%d picks=%d notice=%s", len(candidates), len(plans), bool(notice))
     return {
         "plans": plans,
         "candidates_count": len(candidates),

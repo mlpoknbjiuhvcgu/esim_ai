@@ -6,7 +6,14 @@
 
 import re
 import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from webapp.logging_setup import get_logger
 from playwright.sync_api import sync_playwright
+
+log = get_logger("scraper", "scraper.log")
 
 # 所有已驗證的產品 code
 PRODUCT_CODES = [
@@ -136,7 +143,7 @@ def scrape() -> dict:
                 raw = fetch_product(browser, code)
 
                 if not raw:
-                    print(f"  SKIP {code}")
+                    log.warning("SKIP %s", code)
                     continue
 
                 product_name = raw["name"]
@@ -171,7 +178,7 @@ def scrape() -> dict:
                             "code":     code,
                         })
 
-                print(f"  OK  {code} | {len(dest_plans)} 筆累計")
+                log.info("OK %s | %d 筆累計", code, len(dest_plans))
 
             if dest_plans:
                 # 同一目的地去重（相同 days + data_gb + price + variant）
@@ -191,20 +198,19 @@ def scrape() -> dict:
 
 
 def main():
-    print("開始爬取去趣 eSIM 方案...\n")
+    log.info("====== 開始爬取去趣 eSIM 方案 ======")
     plans = scrape()
 
     total = sum(len(v) for v in plans.values())
-    print(f"\n完成！共 {len(plans)} 個目的地，{total} 個 SKU\n")
+    log.info("完成！共 %d 個目的地，%d 個 SKU", len(plans), total)
 
     for dest, items in plans.items():
-        print(f"{dest}: {len(items)} 個方案，最低 NT${min(i['price'] for i in items)}")
+        log.info("%s: %d 個方案，最低 NT$%d", dest, len(items), min(i["price"] for i in items))
 
     output = "chictrip_plans.json"
     with open(output, "w", encoding="utf-8") as f:
         json.dump(plans, f, ensure_ascii=False, indent=2)
-    print(f"\n已儲存至 {output}")
-    print("下一步：把 chictrip_plans.json 的內容合併到 esim_dataset_builder.py 的 PLANS_DB")
+    log.info("已儲存至 %s", output)
 
 
 if __name__ == "__main__":
