@@ -4121,6 +4121,560 @@
       "code": "china-hongkong-macau/unlimited"
     }
   ],
+  "中國": [
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 1天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 22,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 1天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 37,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 1天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 43,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 1天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 1,
+      "price": 72,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 2天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 2,
+      "price": 65,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 2天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 2,
+      "price": 81,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 2天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 2,
+      "price": 130,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 3天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 43,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 3天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 87,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 3天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 116,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 3天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 3,
+      "price": 187,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 4天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 4,
+      "price": 116,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 4天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 4,
+      "price": 151,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 4天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 4,
+      "price": 246,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 5天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 65,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 5天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 138,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 5天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 187,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 5天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 5,
+      "price": 303,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 6天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 6,
+      "price": 94,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 6天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 6,
+      "price": 166,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 6天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 6,
+      "price": 224,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 6天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 6,
+      "price": 360,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 7天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 87,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 7天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 108,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 7天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 187,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 7天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 259,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 7天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 7,
+      "price": 417,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 10天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 116,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 10天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 268,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 10天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 360,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 10天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 10,
+      "price": 597,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 12天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 12,
+      "price": 319,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 12天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 12,
+      "price": 428,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 12天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 12,
+      "price": 712,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 15天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 166,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 15天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 395,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 15天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 533,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 15天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 15,
+      "price": 884,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 20天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 224,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 20天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 525,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 20天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 712,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 20天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 20,
+      "price": 1179,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 30天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 325,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 30天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 778,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 30天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 1057,
+      "network": "不限電信商",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "china/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "中國eSIM 30天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 30,
+      "price": 1762,
+      "network": "不限電信商",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "china/unlimited"
+    }
+  ],
   "越南": [
     {
       "provider": "去趣chictrip",
@@ -4196,18 +4750,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 1天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 1,
-      "price": 94,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 2天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4277,18 +4819,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 2天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 2,
-      "price": 229,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -4364,18 +4894,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 3天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 3,
-      "price": 246,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 4天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4445,18 +4963,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 4天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 4,
-      "price": 393,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -4532,18 +5038,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 5天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 5,
-      "price": 395,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 6天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4613,18 +5107,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 6天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 6,
-      "price": 540,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -4700,18 +5182,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 7天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 7,
-      "price": 547,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 8天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4781,18 +5251,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 8天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 8,
-      "price": 751,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -4868,18 +5326,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 9天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 9,
-      "price": 768,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 10天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4952,18 +5398,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 10天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 10,
-      "price": 778,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 11天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5009,18 +5443,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 11天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 11,
-      "price": 1111,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5072,18 +5494,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 12天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 12,
-      "price": 1128,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 13天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5132,18 +5542,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 13天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 13,
-      "price": 1143,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 14天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5189,18 +5587,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 14天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 14,
-      "price": 1160,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5276,18 +5662,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 15天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 15,
-      "price": 1165,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 16天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5333,18 +5707,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 16天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 16,
-      "price": 1487,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5396,18 +5758,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 17天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 17,
-      "price": 1502,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 18天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5456,18 +5806,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 18天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 18,
-      "price": 1519,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 19天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5513,18 +5851,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 19天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 19,
-      "price": 1536,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5600,18 +5926,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 20天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 20,
-      "price": 1545,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 21天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5657,18 +5971,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 21天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 21,
-      "price": 2173,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5720,18 +6022,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 22天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 22,
-      "price": 2189,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 23天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5780,18 +6070,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 23天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 23,
-      "price": 2206,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 24天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5837,18 +6115,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 24天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 24,
-      "price": 2221,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5912,18 +6178,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 25天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 25,
-      "price": 2238,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 26天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5969,18 +6223,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 26天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 26,
-      "price": 2255,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6032,18 +6274,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 27天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 27,
-      "price": 2270,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 28天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6092,18 +6322,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 28天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 28,
-      "price": 2287,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 29天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6149,18 +6367,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 29天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 29,
-      "price": 2303,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6233,18 +6439,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 30天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 30,
-      "price": 2308,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     }
   ],
   "菲律賓": [
@@ -9855,6 +10049,54 @@
     {
       "provider": "去趣chictrip",
       "name": "澳洲eSIM 1天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 22,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 1天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 30,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 1天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 37,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 1天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 43,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 1天",
       "data_gb": 9999,
       "daily_cap_gb": 9999,
       "days": 1,
@@ -9863,6 +10105,54 @@
       "variant": "標準",
       "note": "標準吃到飽",
       "code": "australia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 3天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 37,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 3天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 51,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 3天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 81,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 3天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 102,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
     },
     {
       "provider": "去趣chictrip",
@@ -9879,6 +10169,54 @@
     {
       "provider": "去趣chictrip",
       "name": "澳洲eSIM 5天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 59,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 5天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 72,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 5天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 123,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 5天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 166,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 5天",
       "data_gb": 9999,
       "daily_cap_gb": 9999,
       "days": 5,
@@ -9887,6 +10225,54 @@
       "variant": "標準",
       "note": "標準吃到飽",
       "code": "australia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 7天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 72,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 7天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 94,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 7天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 166,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 7天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 7,
+      "price": 224,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
     },
     {
       "provider": "去趣chictrip",
@@ -9903,6 +10289,54 @@
     {
       "provider": "去趣chictrip",
       "name": "澳洲eSIM 10天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 102,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 10天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 130,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 10天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 230,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 10天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 10,
+      "price": 317,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 10天",
       "data_gb": 9999,
       "daily_cap_gb": 9999,
       "days": 10,
@@ -9911,6 +10345,54 @@
       "variant": "標準",
       "note": "標準吃到飽",
       "code": "australia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 15天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 144,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 15天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 195,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 15天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 346,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 15天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 15,
+      "price": 468,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
     },
     {
       "provider": "去趣chictrip",
@@ -9927,6 +10409,54 @@
     {
       "provider": "去趣chictrip",
       "name": "澳洲eSIM 20天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 195,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 20天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 252,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 20天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 453,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 20天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 20,
+      "price": 618,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 20天",
       "data_gb": 9999,
       "daily_cap_gb": 9999,
       "days": 20,
@@ -9939,6 +10469,54 @@
     {
       "provider": "去趣chictrip",
       "name": "澳洲eSIM 30天",
+      "data_gb": 0.49,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 281,
+      "network": "Optus",
+      "variant": null,
+      "note": "0.49GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 30天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 374,
+      "network": "Optus",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 30天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 677,
+      "network": "Optus",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 30天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 30,
+      "price": 921,
+      "network": "Optus",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "australia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "澳洲eSIM 30天",
       "data_gb": 9999,
       "daily_cap_gb": 9999,
       "days": 30,
@@ -9947,6 +10525,248 @@
       "variant": "標準",
       "note": "標準吃到飽",
       "code": "australia/unlimited"
+    }
+  ],
+  "日韓": [
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 1天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 37,
+      "network": "多國通用",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 1天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 51,
+      "network": "多國通用",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 1天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 1,
+      "price": 59,
+      "network": "多國通用",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 1天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 1,
+      "price": 94,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "japan-korea/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 2天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 2,
+      "price": 54,
+      "network": "多國通用",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 2天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 2,
+      "price": 83,
+      "network": "多國通用",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 2天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 2,
+      "price": 105,
+      "network": "多國通用",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 2天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 2,
+      "price": 170,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "japan-korea/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 3天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 72,
+      "network": "多國通用",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 3天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 116,
+      "network": "多國通用",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 3天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 3,
+      "price": 151,
+      "network": "多國通用",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 3天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 3,
+      "price": 246,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "japan-korea/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 4天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 4,
+      "price": 91,
+      "network": "多國通用",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 4天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 4,
+      "price": 149,
+      "network": "多國通用",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 4天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 4,
+      "price": 198,
+      "network": "多國通用",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 4天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 4,
+      "price": 320,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "japan-korea/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 5天",
+      "data_gb": 1.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 108,
+      "network": "多國通用",
+      "variant": null,
+      "note": "1.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 5天",
+      "data_gb": 2.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 181,
+      "network": "多國通用",
+      "variant": null,
+      "note": "2.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 5天",
+      "data_gb": 3.0,
+      "daily_cap_gb": null,
+      "days": 5,
+      "price": 246,
+      "network": "多國通用",
+      "variant": null,
+      "note": "3.0GB/天",
+      "code": "japan-korea/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "日韓eSIM 5天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 5,
+      "price": 395,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "japan-korea/unlimited"
     }
   ],
   "亞洲": [
@@ -10000,6 +10820,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 1天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 1,
+      "price": 94,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 2天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10045,6 +10877,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 2天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 2,
+      "price": 247,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10096,6 +10940,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 3天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 3,
+      "price": 259,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 4天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10141,6 +10997,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 4天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 4,
+      "price": 412,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10192,6 +11060,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 5天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 5,
+      "price": 425,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 6天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10237,6 +11117,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 6天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 6,
+      "price": 578,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10288,6 +11180,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 7天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 7,
+      "price": 591,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 8天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10333,6 +11237,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 8天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 8,
+      "price": 810,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10384,6 +11300,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 9天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 9,
+      "price": 827,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 10天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10429,6 +11357,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 10天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 10,
+      "price": 842,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10480,6 +11420,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 11天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 11,
+      "price": 1173,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 12天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10525,6 +11477,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 12天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 12,
+      "price": 1190,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10576,6 +11540,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 13天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 13,
+      "price": 1207,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 14天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10621,6 +11597,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 14天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 14,
+      "price": 1222,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10672,6 +11660,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 15天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 15,
+      "price": 1252,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 16天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10717,6 +11717,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 16天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 16,
+      "price": 1585,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10768,6 +11780,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 17天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 17,
+      "price": 1602,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 18天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10813,6 +11837,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 18天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 18,
+      "price": 1619,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10864,6 +11900,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 19天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 19,
+      "price": 1635,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 20天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -10909,6 +11957,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 20天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 20,
+      "price": 1668,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -10960,6 +12020,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 21天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 21,
+      "price": 2331,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 22天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11005,6 +12077,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 22天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 22,
+      "price": 2346,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -11056,6 +12140,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 23天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 23,
+      "price": 2363,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 24天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11101,6 +12197,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 24天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 24,
+      "price": 2380,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -11152,6 +12260,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 25天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 25,
+      "price": 2395,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 26天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11197,6 +12317,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 26天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 26,
+      "price": 2412,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -11248,6 +12380,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 27天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 27,
+      "price": 2429,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 28天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11293,6 +12437,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 28天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 28,
+      "price": 2445,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -11344,6 +12500,18 @@
     },
     {
       "provider": "去趣chictrip",
+      "name": "亞洲eSIM 29天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 29,
+      "price": 2462,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
+    },
+    {
+      "provider": "去趣chictrip",
       "name": "亞洲eSIM 30天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11389,6 +12557,18 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "asia/daily-data"
+    },
+    {
+      "provider": "去趣chictrip",
+      "name": "亞洲eSIM 30天",
+      "data_gb": 9999,
+      "daily_cap_gb": 9999,
+      "days": 30,
+      "price": 2495,
+      "network": "多國通用",
+      "variant": "標準",
+      "note": "標準吃到飽",
+      "code": "asia/unlimited"
     }
   ]
 }
