@@ -4750,18 +4750,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 1天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 1,
-      "price": 94,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 2天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4831,18 +4819,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 2天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 2,
-      "price": 229,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -4918,18 +4894,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 3天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 3,
-      "price": 246,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 4天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -4999,18 +4963,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 4天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 4,
-      "price": 393,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5086,18 +5038,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 5天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 5,
-      "price": 395,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 6天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5167,18 +5107,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 6天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 6,
-      "price": 540,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5254,18 +5182,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 7天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 7,
-      "price": 547,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 8天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5335,18 +5251,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 8天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 8,
-      "price": 751,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5422,18 +5326,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 9天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 9,
-      "price": 768,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 10天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5506,18 +5398,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 10天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 10,
-      "price": 778,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 11天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5563,18 +5443,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 11天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 11,
-      "price": 1111,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5626,18 +5494,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 12天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 12,
-      "price": 1128,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 13天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5686,18 +5542,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 13天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 13,
-      "price": 1143,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 14天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5743,18 +5587,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 14天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 14,
-      "price": 1160,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5830,18 +5662,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 15天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 15,
-      "price": 1165,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 16天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -5887,18 +5707,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 16天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 16,
-      "price": 1487,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -5950,18 +5758,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 17天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 17,
-      "price": 1502,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 18天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6010,18 +5806,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 18天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 18,
-      "price": 1519,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 19天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6067,18 +5851,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 19天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 19,
-      "price": 1536,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6154,18 +5926,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 20天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 20,
-      "price": 1545,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 21天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6211,18 +5971,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 21天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 21,
-      "price": 2173,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6274,18 +6022,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 22天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 22,
-      "price": 2189,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 23天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6334,18 +6070,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 23天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 23,
-      "price": 2206,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 24天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6391,18 +6115,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 24天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 24,
-      "price": 2221,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6466,18 +6178,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 25天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 25,
-      "price": 2238,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 26天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6523,18 +6223,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 26天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 26,
-      "price": 2255,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6586,18 +6274,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 27天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 27,
-      "price": 2270,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 28天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6646,18 +6322,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "越南eSIM 28天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 28,
-      "price": 2287,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "越南eSIM 29天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -6703,18 +6367,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 29天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 29,
-      "price": 2303,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -6787,18 +6439,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "vietnam/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "越南eSIM 30天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 30,
-      "price": 2308,
-      "network": "不限電信商",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "vietnam/unlimited"
     }
   ],
   "菲律賓": [
