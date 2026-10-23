@@ -11694,18 +11694,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "澳洲eSIM 1天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 1,
-      "price": 65,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "澳洲eSIM 3天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11751,18 +11739,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "australia/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "澳洲eSIM 3天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 3,
-      "price": 166,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -11814,18 +11790,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "澳洲eSIM 5天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 5,
-      "price": 268,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "澳洲eSIM 7天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11871,18 +11835,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "australia/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "澳洲eSIM 7天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 7,
-      "price": 368,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -11934,18 +11886,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "澳洲eSIM 10天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 10,
-      "price": 518,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "澳洲eSIM 15天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -11991,18 +11931,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "australia/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "澳洲eSIM 15天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 15,
-      "price": 769,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
     },
     {
       "provider": "去趣chictrip",
@@ -12054,18 +11982,6 @@
     },
     {
       "provider": "去趣chictrip",
-      "name": "澳洲eSIM 20天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 20,
-      "price": 1022,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
-    },
-    {
-      "provider": "去趣chictrip",
       "name": "澳洲eSIM 30天",
       "data_gb": 0.49,
       "daily_cap_gb": null,
@@ -12111,18 +12027,6 @@
       "variant": null,
       "note": "3.0GB/天",
       "code": "australia/daily-data"
-    },
-    {
-      "provider": "去趣chictrip",
-      "name": "澳洲eSIM 30天",
-      "data_gb": 9999,
-      "daily_cap_gb": 9999,
-      "days": 30,
-      "price": 1524,
-      "network": "Optus",
-      "variant": "標準",
-      "note": "標準吃到飽",
-      "code": "australia/unlimited"
     }
   ],
   "日韓": [
