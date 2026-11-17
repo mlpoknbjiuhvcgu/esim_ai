@@ -520,7 +520,7 @@
       "provider": "去趣chictrip",
       "name": "日本eSIM 4天",
       "data_gb": 9999,
-      "daily_cap_gb": 10.0,
+      "daily_cap_gb": 9999,
       "days": 4,
       "price": 325,
       "network": "Softbank、Docomo、KDDI",
